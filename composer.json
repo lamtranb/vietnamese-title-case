@@ -1,0 +1,42 @@
+{
+  "name": "lamtranb/vietnamese-title-case",
+  "description": "Vietnamese title case",
+  "keywords": [
+    "Vietnamese",
+    "title",
+    "case"
+  ],
+  "homepage": "https://github.com/lamtranb/vietnamese-title-case",
+  "license": "MIT",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Lam Tran Bao",
+      "email": "tranbaolam6693@gmail.com"
+    },
+    {
+      "name": "Tri Tran Van",
+      "email": "tvtri1997@gmail.com"
+    },
+    {
+      "name": "Hung Nguyen",
+      "email": "nguyenhungtran1297@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LamTranB\\VietnameseTitleCase\\": "src",
+      "LamTranB\\VietnameseTitleCase\\Tests\\": "tests"
+    },
+    "files": []
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
